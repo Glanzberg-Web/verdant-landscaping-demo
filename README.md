@@ -1,34 +1,36 @@
 # Verdant Outdoor Co. — Website Demo
 
-Verdant Outdoor Co. is a fictional landscaping and outdoor-services brand created by **Glanzberg Web** as a portfolio demonstration.
+Verdant Outdoor Co. is a fictional landscape-design studio created by **Glanzberg Web** as a portfolio demonstration.
 
-The site is designed to show how a landscaping business can combine strong photography, clear service positioning, project-focused storytelling, and simple estimate requests in a polished mobile-friendly experience.
+The redesign intentionally behaves like a visual landscape portfolio rather than a conventional service-business template. Selected projects, large-format photography, an interactive before/after study, and studio notes do most of the storytelling.
 
 ## Demo highlights
 
-- Responsive landscaping website
-- Premium editorial-style visual direction
-- Landscaping, maintenance, and outdoor-living service sections
-- Project showcase and before/after-style presentation
-- Service-area messaging
-- Estimate-request form demonstration
+- Responsive landscape-design portfolio
+- Fixed side-rail navigation on desktop
+- Large-format asymmetrical project layouts
+- Interactive before/after comparison
+- Studio philosophy and design notes
+- Minimal contact call-to-action
 - Static structure ready for GitHub Pages
 
 ## Important
 
-Verdant Outdoor Co. is not a real business. Names, testimonials, project details, statistics, phone numbers, pricing language, and service information are sample content used solely for demonstration.
-
-The estimate form is intentionally configured as a demo and does not send information to a real landscaping company.
+Verdant Outdoor Co. is not a real business. Project names, locations, descriptions, and contact information are sample content used solely for demonstration.
 
 ## Photography
 
-Demo photography is sourced from Wikimedia Commons:
+The current demo uses stable Wikimedia Commons-hosted imagery from Fairchild Tropical Botanic Garden in South Florida, including photographs by Krzysztof Ziarnek (Kenraiz), Nolege, and Alexf. Individual Commons file pages contain the applicable Creative Commons license and attribution details.
 
-- “Fairchild Tropical Botanic Garden kz05.jpg” — Krzysztof Ziarnek, Kenraiz — CC BY-SA 4.0
-- “Cocos nucifera - Fairchild Tropical Botanic Garden.jpg” — Nolege — CC BY-SA 3.0
+Referenced files include:
 
-The images are displayed from Wikimedia-hosted sources and are used here as visual demonstration material with attribution.
+- Fairchild Tropical Botanic Garden kz05.jpg
+- Fairchild Tropical Botanic Garden kz06.jpg
+- Fairchild Tropical Botanic Garden kz09.jpg
+- Fairchild Tropical Botanic Garden kz11.jpg
+- Cocos nucifera - Fairchild Tropical Botanic Garden.jpg
+- Fairchild04.jpg
 
 ## Built by Glanzberg Web
 
-This demo is part of the Glanzberg Web portfolio and represents one possible direction for a landscaping or outdoor-services website.
+This demo is part of the Glanzberg Web portfolio and represents an image-led, design-studio direction for a landscaping or outdoor-design business.
