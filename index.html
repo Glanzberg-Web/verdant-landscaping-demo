@@ -1,187 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Verdant Outdoor Co. — a fictional landscaping website demo by Glanzberg Web." />
-  <title>Verdant Outdoor Co. | Landscaping Demo</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Verdant Outdoor Co. — fictional landscape design portfolio demo by Glanzberg Web.">
+  <title>Verdant Outdoor Co. | Landscape Portfolio Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="demo-bar">FICTIONAL DEMO BY GLANZBERG WEB</div>
-
-  <header class="header">
-    <a class="brand" href="#top">
-      <span class="brand-icon">V</span>
-      <span><strong>VERDANT</strong><small>OUTDOOR CO.</small></span>
-    </a>
-    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
-    <nav class="nav">
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-cta" href="#contact">Free Estimate</a>
-    </nav>
-  </header>
+  <aside class="rail">
+    <a class="mark" href="#top">V</a>
+    <nav><a href="#work">Work</a><a href="#studio">Studio</a><a href="#contact">Start</a></nav>
+    <span class="rotate">SOUTH FLORIDA · LANDSCAPE</span>
+  </aside>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-image"></div>
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <span class="eyebrow">LANDSCAPES MADE FOR SOUTH FLORIDA</span>
-        <h1>Outdoor spaces<br>that feel <em>alive.</em></h1>
-        <p>Thoughtful landscaping, dependable maintenance, and outdoor upgrades designed around the way you live.</p>
-        <div class="hero-actions">
-          <a class="btn btn-light" href="#contact">Get a Free Estimate</a>
-          <a class="text-action" href="#projects">See Our Work <span>↗</span></a>
-        </div>
+    <section class="opening">
+      <div class="opening-copy">
+        <span class="label">VERDANT OUTDOOR CO. · FICTIONAL DEMO</span>
+        <h1>Landscapes<br>with a <em>point of view.</em></h1>
+        <p>Residential landscapes shaped around light, texture, movement, and the way people actually use the outdoors.</p>
+        <a href="#work">View selected work ↓</a>
       </div>
-      <div class="hero-stats">
-        <div><strong>250+</strong><span>Projects completed</span></div>
-        <div><strong>4.9/5</strong><span>Average rating</span></div>
-        <div><strong>10 yrs</strong><span>Local experience</span></div>
+      <div class="opening-photo"></div>
+      <div class="opening-index"><span>01 / 04</span><strong>PALM COURT</strong><small>Coral Gables</small></div>
+    </section>
+
+    <section class="manifesto">
+      <p>Not a lawn-care catalog.</p>
+      <h2>We design outdoor rooms that get better as they grow in.</h2>
+    </section>
+
+    <section class="work" id="work">
+      <article class="project project-a">
+        <div class="project-image"></div>
+        <div class="project-caption"><span>01</span><div><h3>Palm Court</h3><p>Tropical planting · privacy · courtyard rhythm</p></div><b>Coral Gables</b></div>
+      </article>
+
+      <article class="project project-b">
+        <div class="project-image"></div>
+        <div class="project-caption"><span>02</span><div><h3>Canopy House</h3><p>Shade garden · limestone · low-water planting</p></div><b>Coconut Grove</b></div>
+      </article>
+
+      <article class="project project-c">
+        <div class="project-image"></div>
+        <div class="project-caption"><span>03</span><div><h3>Pool Garden</h3><p>Pool edge · layered palms · evening light</p></div><b>Miami Beach</b></div>
+      </article>
+    </section>
+
+    <section class="before-after">
+      <div class="ba-copy">
+        <span>PROJECT STUDY</span>
+        <h2>From exposed<br>to enclosed.</h2>
+        <p>Drag the control to see how a project story could be shown without burying it in a card grid.</p>
+      </div>
+      <div class="ba-stage">
+        <div class="after"></div>
+        <div class="before" id="beforePane"></div>
+        <div class="divider" id="divider"><i></i></div>
+        <input id="reveal" type="range" min="8" max="92" value="50" aria-label="Compare before and after">
+        <span class="before-tag">BEFORE</span><span class="after-tag">AFTER</span>
       </div>
     </section>
 
-    <section class="intro section" id="services">
-      <div class="intro-kicker">
-        <span class="eyebrow dark">WHAT WE DO</span>
-        <span class="line"></span>
+    <section class="studio" id="studio">
+      <div class="studio-number">04</div>
+      <div class="studio-copy">
+        <span class="label">STUDIO NOTES</span>
+        <h2>Plant first.<br>Structure second.<br>Maintenance always.</h2>
+        <p>Verdant is positioned like a small design studio rather than a commodity lawn service. That changes the website too: fewer promises, more work, more visual evidence, and more emphasis on taste.</p>
       </div>
-      <div class="intro-copy">
-        <h2>From weekly care to complete transformations.</h2>
-        <p>We help homeowners create outdoor spaces that are beautiful, practical, and easier to maintain year-round.</p>
-      </div>
-
-      <div class="services-grid">
-        <article>
-          <span class="service-num">01</span>
-          <h3>Landscape Design</h3>
-          <p>Planting plans, tropical palettes, bed redesigns, lighting concepts, and curb-appeal upgrades.</p>
-          <a href="#contact">Plan a project →</a>
-        </article>
-        <article>
-          <span class="service-num">02</span>
-          <h3>Lawn & Garden Care</h3>
-          <p>Consistent maintenance, trimming, seasonal cleanups, fertilization, and ongoing property care.</p>
-          <a href="#contact">Get maintenance pricing →</a>
-        </article>
-        <article>
-          <span class="service-num">03</span>
-          <h3>Outdoor Living</h3>
-          <p>Patio refreshes, pathway improvements, decorative stone, privacy planting, and finishing details.</p>
-          <a href="#contact">Explore upgrades →</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <div class="section project-heading">
-        <div>
-          <span class="eyebrow light">RECENT PROJECTS</span>
-          <h2>Spaces made to be used.</h2>
-        </div>
-        <p>Every property is different. Our approach starts with the site, the client’s priorities, and the level of care they want long-term.</p>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card large">
-          <div class="project-photo palms"></div>
-          <div class="project-info"><span>Coral Gables · Full Landscape Refresh</span><strong>Tropical Courtyard</strong></div>
-        </article>
-        <article class="project-card">
-          <div class="project-photo garden"></div>
-          <div class="project-info"><span>Miami · Planting & Lighting</span><strong>Evening Garden</strong></div>
-        </article>
-        <article class="project-card">
-          <div class="project-photo patio"></div>
-          <div class="project-info"><span>South Florida · Outdoor Living</span><strong>Poolside Greenery</strong></div>
-        </article>
-      </div>
-      <p class="demo-note">Project names and descriptions are fictional examples for this portfolio demo.</p>
-    </section>
-
-    <section class="about section" id="about">
-      <div class="about-panel">
-        <span class="eyebrow dark">WHY VERDANT</span>
-        <h2>Good landscaping should look better next year.</h2>
-        <p>We choose practical materials and planting strategies with South Florida conditions in mind—so the finished space is designed for more than day one.</p>
-        <div class="check-grid">
-          <span>✓ Clear project scopes</span>
-          <span>✓ Plant-focused design</span>
-          <span>✓ Consistent communication</span>
-          <span>✓ Ongoing maintenance options</span>
-        </div>
-      </div>
-
-      <div class="quote-card">
-        <span class="quote-mark">“</span>
-        <blockquote>They took a yard we barely used and made it feel like another room of the house. The whole process was simple and well organized.</blockquote>
-        <div><strong>Jamie M.</strong><span>Sample client testimonial</span></div>
-      </div>
-    </section>
-
-    <section class="steps section">
-      <span class="eyebrow dark">OUR PROCESS</span>
-      <div class="steps-heading">
-        <h2>Simple from the first visit.</h2>
-        <p>No vague scopes or guessing what happens next.</p>
-      </div>
-      <div class="steps-grid">
-        <div><span>1</span><h3>Walk the property</h3><p>We learn what you want to improve and how you use the space.</p></div>
-        <div><span>2</span><h3>Build the plan</h3><p>You receive a clear scope, recommendations, and estimate.</p></div>
-        <div><span>3</span><h3>Transform the space</h3><p>Our team handles installation with clear updates along the way.</p></div>
+      <div class="studio-notes">
+        <div><span>Design</span><p>Planting concepts, circulation, privacy, focal points.</p></div>
+        <div><span>Build</span><p>Installation coordination, hardscape accents, lighting.</p></div>
+        <div><span>Care</span><p>Ongoing maintenance strategies designed into the plan.</p></div>
       </div>
     </section>
 
     <section class="contact" id="contact">
-      <div class="contact-intro">
-        <span class="eyebrow light">START A PROJECT</span>
-        <h2>Tell us what you want to change.</h2>
-        <p>Share a few details about your property and the type of work you’re considering. A team member would normally follow up to schedule a site visit.</p>
-        <div class="contact-meta">
-          <span>South Florida</span>
-          <span>(305) 555-0186</span>
-          <span>Mon–Sat · 8 AM–5 PM</span>
-        </div>
-      </div>
-
-      <form class="estimate-form" id="estimateForm">
-        <div class="row">
-          <label>Name<input name="name" required></label>
-          <label>Phone<input name="phone" type="tel" required></label>
-        </div>
-        <label>Email<input name="email" type="email" required></label>
-        <label>What are you interested in?
-          <select name="service">
-            <option>Landscape design / installation</option>
-            <option>Recurring lawn & garden care</option>
-            <option>Outdoor living upgrades</option>
-            <option>Not sure yet</option>
-          </select>
-        </label>
-        <label>Tell us about the property<textarea name="message" rows="5" placeholder="What would you like to improve?"></textarea></label>
-        <button class="btn btn-dark" type="submit">Request My Estimate</button>
-        <small>Demo form only — no information is sent to a live business.</small>
-      </form>
+      <span>HAVE A PROPERTY IN MIND?</span>
+      <h2>Show us the space.</h2>
+      <a href="mailto:studio@verdant.example">studio@verdant.example ↗</a>
+      <small>Fictional demo contact · no real business inquiry is sent</small>
     </section>
   </main>
 
-  <footer>
-    <div class="brand footer-brand">
-      <span class="brand-icon">V</span>
-      <span><strong>VERDANT</strong><small>OUTDOOR CO.</small></span>
-    </div>
-    <p>Fictional landscaping concept created for the Glanzberg Web portfolio.</p>
-    <a href="#top">Back to top ↑</a>
-  </footer>
-
-  <div class="toast"><strong>Demo estimate received.</strong><span>On a client site, this would be delivered to the business.</span></div>
   <script src="script.js"></script>
 </body>
 </html>
